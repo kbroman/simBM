@@ -1,4 +1,17 @@
-# Simulate 2d Brownian motion
+#' Simulate 2d Brownian motion
+#'
+#' Simulate 2d Brownian motion
+#'
+#' @param n sample size
+#' @param sigma standard deviation of steps
+#'
+#' @return a two column matrix with n rows
+#'
+#' @export
+#'
+#' @examples
+#' x <- simBM(1000)
+#' plotBM(x)
 simBM <-
     function(n, sigma=1)
 {
@@ -12,7 +25,21 @@ simBM <-
 }
 
 
-# Plot 2d Brownian motion
+#' Plot 2d Brownian motion
+#'
+#' Plot 2d Brownian motion
+#'
+#' @param x matrix with 2 columns
+#' @param pointcolor color of points at start and end; If NULL
+#     points are omitted
+#' @param type passed to plot()
+#' @param ...  passed to plot()
+#'
+#' @export
+#'
+#' @examples
+#' x <- simBM(1000)
+#' plotBM(x)
 plotBM <-
     function(x, pointcolor=c("slateblue", "violetred"), type="l", ...)
 {
