@@ -1,2 +1,7 @@
 Package: simBM
 Version: 0.1
+Title: Simulation 2d Brownian Motion
+Description: Simulate and plot 2d Brownian motion.
+Author: Karl Broman <kbroman@biostat.wisc.edu>
+Maintainer: Karl Broman <kbroman@biostat.wisc.edu>
+License: GPL-3
