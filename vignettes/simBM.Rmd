@@ -1,0 +1,24 @@
+---
+title: simBM user guide
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{simBM user guide}
+  %\VignetteEngine{knitr::rmarkdown}
+    \usepackage[utf8](inputenc)
+---
+
+```{r loadlib}
+library(simBM)
+```
+
+Simulate:
+
+```{r simBM}
+x <- simBM(1000)
+```
+
+Plot:
+
+```{r plotBM}
+plotBM(x)
+```

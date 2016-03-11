@@ -5,4 +5,11 @@ Description: Simulate and plot 2d Brownian motion.
 Author: Karl Broman <kbroman@biostat.wisc.edu>
 Maintainer: Karl Broman <kbroman@biostat.wisc.edu>
 License: GPL-3
+Suggests:
+    devtools,
+    roxygen2,
+    knitr,
+    rmarkdown
+LazyData: true
+VignetteBuilder: knitr
 RoxygenNote: 5.0.1
