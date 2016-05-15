@@ -8,6 +8,7 @@
 #' @return a two column matrix with n rows
 #'
 #' @export
+#' @importFrom stats rnorm
 #'
 #' @examples
 #' x <- simBM(1000)
@@ -36,6 +37,7 @@ simBM <-
 #' @param ...  passed to plot()
 #'
 #' @export
+#' @importFrom graphics plot points
 #'
 #' @examples
 #' x <- simBM(1000)
